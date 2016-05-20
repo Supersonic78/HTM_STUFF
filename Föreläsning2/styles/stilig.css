@@ -1,0 +1,33 @@
+﻿body {
+}
+a:hover{color: navy;}#buttons {
+    background-color: grey;
+    list-style:none;
+    text-align: center;
+    margin-right:30px;
+    width:150px;
+    line-height:30px;
+    position: fixed;
+    right:10px;
+    border-radius: 30%/20%;
+}
+a:visited { color: mistyrose;} a:hover{color: navy;} a:active{color: slategray;}#buttons li a {
+    
+    float:left;
+    background-color: aquamarine;
+    border:3px solid black;
+    width:80px;
+    margin:5px;
+    text-decoration:none;
+    /*box-shadow: 5px 10px #808080;*/
+     border-radius: 30%/20%;
+}
+#stycke1 {
+    float:left;
+    color: red;
+}
+
+section {
+    
+}
+
