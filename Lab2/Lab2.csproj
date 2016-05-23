@@ -107,7 +107,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="checkout.html" />
+    <Content Include="order.html" />
     <Content Include="contact.html" />
     <Content Include="images\AAEAAQAAAAAAAAi7AAAAJDEyMDQ5ODkwLThhYmYtNDZmMS1hNDYzLTAwZjMzN2UyOGU2Nw.jpg" />
     <Content Include="images\dbex.JPG" />
