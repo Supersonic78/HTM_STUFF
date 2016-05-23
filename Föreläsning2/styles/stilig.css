@@ -22,9 +22,12 @@ a:visited { color: mistyrose;} a:hover{color: navy;} a:active{color: slategray;}
     /*box-shadow: 5px 10px #808080;*/
      border-radius: 30%/20%;
 }
-#stycke1 {
+p::before{ content: "Test";color: red; }#test {
     float:left;
     color: red;
+}
+#apa {
+    color: green;
 }
 
 section {
