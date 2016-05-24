@@ -4,14 +4,16 @@ body {
 }
 
 #container {
-    width:960px;
+    width: 960px;
     margin: 0px auto;
 }
+
 #leftcolumn {
-    width:700px;
+    width: 700px;
     float: left;
     background-color: blue;
 }
+
 #rightcolumn {
     width: 260px;
     float: left;
@@ -19,3 +21,38 @@ body {
 }
 
 
+@media screen and (max-width:959px) {
+    
+    #container {
+        width: 100%;
+        
+    }
+    #leftcolumn {
+        width:70%;
+        background-color: #b6ff00;
+      
+    }
+    #rightcolumn {
+        width:30%;
+    }
+    img {
+        width:100%;
+    }
+}
+@media screen and (max-width:320px) {
+    
+    #container {
+        width: 100%;
+        
+    }
+    #leftcolumn {
+        display: none;
+      
+    }
+    #rightcolumn {
+        width:30%;
+    }
+    img {
+        width:100%;
+    }
+}
