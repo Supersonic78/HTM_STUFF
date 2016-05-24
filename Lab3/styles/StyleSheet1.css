@@ -3,10 +3,19 @@ body {
     background-color: lightgrey;
 }
 
-h1 {
-    color: #b200ff;
+#container {
+    width:960px;
+    margin: 0px auto;
+}
+#leftcolumn {
+    width:700px;
+    float: left;
+    background-color: blue;
+}
+#rightcolumn {
+    width: 260px;
+    float: left;
+    background-color: orange;
 }
 
-p {
-    color: #ff006e;
-}
+
