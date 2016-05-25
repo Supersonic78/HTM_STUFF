@@ -111,6 +111,7 @@
     <Content Include="images\darth.PNG" />
     <Content Include="images\postit.PNG" />
     <Content Include="images\postit2.png" />
+    <Content Include="images\postit3.png" />
     <Content Include="images\Skärmklipptest.JPG" />
     <Content Include="images\yoda.PNG" />
     <Content Include="index.html" />

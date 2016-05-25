@@ -74,22 +74,32 @@ nav {
     }
 
 #postit {
+    width: 30px;
+    height: 20px;
+    background-image: url('../images/postit3.png');
+    background-size: 100%;
+    /*-webkit-animation: example 5s infinite;
+    animation: example 5s infinite;*/
+}
+#postit:hover {
     width: 180px;
     height: 160px;
-    background-image: url('../images/postit2.png');
-    background-size:100%;
-    -webkit-animation: example 5s infinite; 
-    animation: example 5s infinite;
+    background-image: url('../images/postit3.png');
+    background-size: 100%;
+    -webkit-animation: example 5s infinite;
+    animation: example 2s infinite;
 }
 
-@keyframes example {
+@keyframes example{
     from {
-        width: 180px;
-        height: 160px;
+        width: 80px;
+        height: 60px;
+        transform: rotate(0deg);
     }
 
     to {
         width: 280px;
-        height: 260px;
+        height: 228px;
+        transform: rotate(20deg);
     }
 }
