@@ -1,7 +1,9 @@
 ﻿body {
 }
+
 body {
 }
+
 nav {
     width: 420px;
 }
@@ -9,22 +11,21 @@ nav {
 #container2 {
     width: 420px;
     margin: 0px auto;
-    background:#ffd800;
+    background: #ffd800;
 }
 
 #left-column2 {
     width: 420px;
     float: left;
     background: #ff006e;
-    border-radius:25px;
+    border-radius: 25px;
 }
 
 #right-column2 {
     width: 420px;
     float: left;
     background: #b200ff;
-    border-radius:25px;
-    
+    border-radius: 25px;
 }
 
 @media screen and (max-width:1900px) {
@@ -34,32 +35,37 @@ nav {
 
     #left-column2 {
         width: 100%;
-     
     }
+
     #right-column2 {
-    width: 100%;
-    background: #4800ff;
+        width: 100%;
+        background: #4800ff;
+    }
 }
-}
+
 #header {
-    width:100%;
+    width: 100%;
 }
+
 #pic1 {
-    display:none;
+    display: none;
 }
+
 #pic2 {
-    width:100%
+    width: 100%;
 }
+
 #pic3 {
-    width:100%;
+    width: 100%;
 }
+
 #banner2 {
-    width:100%;
+    width: 100%;
 }
+
 #buttons {
-    list-style:none;
+    list-style: none;
     text-align: center;
-    
 }
 
     #buttons li a {
@@ -73,72 +79,322 @@ nav {
         /*box-shadow: 5px 10px #808080;*/
         border-radius: 20%;
     }
-    #ibody {
-        width:200px;
-        height:420px;
-        background: #000000;
-        border: 2px solid #808080;
-        border-radius:32px;
-    }
-    #screen {
-        width:180px;
-        height:320px;
-        background: #808080;
-        position: relative;
-        left:10px;
-        top:30px;
-        border-radius:5px;
-       
-    }
-    #homebutton {
-        width:40px;
-        height:39px;
-        position: relative;
-        border: 1px solid #808080;
-        background:#000000;
-        left:80px;
-        top:45px;
-        border-radius:20px;
-    }
-    #homebuttonsymbol {
-          width:20px;
-        height:20px;
-        position: relative;
-        border: 1px solid #808080;
-        background:#000000;
-        left:90px;
-        top:14px;
-        border-radius:5px;
-        
-    }
-    #speaker {
-           width:35px;
-        height:2px;
-        position:absolute;
-        border: 1px solid #808080;
-        background:#000000;
-        left:90px;
-        top:28px;
-        border-radius:5px;
-        
-    }
-    #camera {
-            width:5px;
-        height:5px;
-        position:absolute;
-        border: 1px solid #808080;
-        background:#000000;
-        left:105px;
-        top:15px;
-        border-radius:5px;
-    }
-      #sensor {
-            width:4px;
-        height:4px;
-        position:absolute;
-        border: 1px solid #808080;
-        background:#000000;
-        left:80px;
-        top:20px;
-        border-radius:5px;
-    }
+
+#ibody {
+    width: 200px;
+    height: 420px;
+    background: #000000;
+    border: 2px solid #808080;
+    border-radius: 32px;
+}
+
+#screen {
+    width: 180px;
+    height: 300px;
+    background: #808080;
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    border-radius: 5px;
+}
+
+#homebutton {
+    width: 40px;
+    height: 39px;
+    position: absolute;
+    border: 1px solid #808080;
+    background: #000000;
+    left: 90px;
+    top: 380px;
+    border-radius: 20px;
+}
+
+#homebuttonsymbol {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 1px solid #808080;
+    background: #000000;
+    left: 100px;
+    top: 390px;
+    border-radius: 5px;
+}
+
+#speaker {
+    width: 35px;
+    height: 2px;
+    position: absolute;
+    border: 1px solid #808080;
+    background: #000000;
+    left: 90px;
+    top: 28px;
+    border-radius: 5px;
+}
+
+#camera {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    border: 1px solid #808080;
+    background: #000000;
+    left: 105px;
+    top: 15px;
+    border-radius: 5px;
+}
+
+#sensor {
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    border: 1px solid #808080;
+    background: #000000;
+    left: 75px;
+    top: 27px;
+    border-radius: 5px;
+}
+
+#button1 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 23px;
+    margin:2px;
+    top: 72px;
+    border-radius: 8px;
+}
+
+#button2 {
+        width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 66px;
+    margin:2px;
+    top: 72px;
+    border-radius: 8px;
+}
+
+#button3 {
+           width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    margin:2px;
+    left: 109px;
+    top: 72px;
+    border-radius: 8px;
+}
+
+#button4 {
+           width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 152px;
+    top: 72px;
+    margin:2px;
+    border-radius: 8px;
+}
+#button5 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 23px;
+    margin:2px;
+    top: 120px;
+    border-radius: 8px;
+}
+
+#button6 {
+        width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 66px;
+    margin:2px;
+    top: 120px;
+    border-radius: 8px;
+}
+
+#button7 {
+           width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    margin:2px;
+    left: 109px;
+    top: 120px;
+    border-radius: 8px;
+}
+
+#button8 {
+           width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 152px;
+    top: 120px;
+    margin:2px;
+    border-radius: 8px;
+}
+#button9 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 23px;
+    margin:2px;
+    top: 168px;
+    border-radius: 8px;
+}
+
+#button10 {
+        width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 66px;
+    margin:2px;
+    top: 168px;
+    border-radius: 8px;
+}
+
+#button11 {
+           width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    margin:2px;
+    left: 109px;
+    top: 168px;
+    border-radius: 8px;
+}
+
+#button12 {
+           width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 152px;
+    top: 168px;
+    margin:2px;
+    border-radius: 8px;
+}
+#button13 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 23px;
+    margin:2px;
+    top: 216px;
+    border-radius: 8px;
+}
+
+#button14 {
+        width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 66px;
+    margin:2px;
+    top: 216px;
+    border-radius: 8px;
+}
+
+#button15 {
+           width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    margin:2px;
+    left: 109px;
+    top: 216px;
+    border-radius: 8px;
+}
+
+#button16 {
+           width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 152px;
+    top: 216px;
+    margin:2px;
+    border-radius: 8px;
+}
+#button17 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 23px;
+    margin:2px;
+    top: 264px;
+    border-radius: 8px;
+}
+
+#button18 {
+        width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 66px;
+    margin:2px;
+    top: 264px;
+    border-radius: 8px;
+}
+
+#button19 {
+           width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    margin:2px;
+    left: 109px;
+    top: 264px;
+    border-radius: 8px;
+}
+
+#button20 {
+           width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 23px;
+    top: 312px;
+    margin:2px;
+    border-radius: 8px;
+}
+#button21 {
+           width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 66px;
+    top: 312px;
+    margin:2px;
+    border-radius: 8px;
+}
+#button22 {
+           width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 109px;
+    top: 312px;
+    margin:2px;
+    border-radius: 8px;
+}
+#button23 {
+           width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #00ffff;
+    left: 152px;
+    top: 312px;
+    margin:2px;
+    border-radius: 8px;
+}
