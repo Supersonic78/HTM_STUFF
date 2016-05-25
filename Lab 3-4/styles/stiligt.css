@@ -56,21 +56,40 @@ nav {
 #banner2 {
     display: none;
 }
+
 #buttons {
-    list-style:none;
+    list-style: none;
     text-align: center;
-    
 }
 
-#buttons li a {
-    float: left;
-    display: block;
-    background-color: #ff0000;
-    border: 1px solid #ff6a00;
-    width: 110px;
-    margin: 5px;
-    text-decoration: none;
-    /*box-shadow: 5px 10px #808080;*/
-    border-radius: 20%;
+    #buttons li a {
+        float: left;
+        display: block;
+        background-color: #ff0000;
+        border: 1px solid #ff6a00;
+        width: 110px;
+        margin: 5px;
+        text-decoration: none;
+        border-radius: 20%;
+    }
+
+#postit {
+    width: 180px;
+    height: 160px;
+    background-image: url('../images/postit2.png');
+    background-size:100%;
+    -webkit-animation: example 5s infinite; 
+    animation: example 5s infinite;
 }
 
+@keyframes example {
+    from {
+        width: 180px;
+        height: 160px;
+    }
+
+    to {
+        width: 280px;
+        height: 260px;
+    }
+}
