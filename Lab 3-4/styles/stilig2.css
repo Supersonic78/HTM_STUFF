@@ -1,0 +1,58 @@
+﻿body {
+}
+body {
+}
+nav {
+    width: 420px;
+}
+
+#container2 {
+    width: 420px;
+    margin: 0px auto;
+    background:#ffd800;
+}
+
+#left-column2 {
+    width: 420px;
+    float: left;
+    background: #ff006e;
+    border-radius:25px;
+}
+
+#right-column2 {
+    width: 420px;
+    float: left;
+    background: #b200ff;
+    border-radius:25px;
+    
+}
+
+@media screen and (max-width:1900px) {
+    #container2 {
+        width: 100%;
+    }
+
+    #left-column2 {
+        width: 100%;
+     
+    }
+    #right-column2 {
+    width: 100%;
+    background: #4800ff;
+}
+}
+#header {
+    width:100%;
+}
+#pic1 {
+    display:none;
+}
+#pic2 {
+    width:100%
+}
+#pic3 {
+    width:100%;
+}
+#banner2 {
+    width:100%;
+}

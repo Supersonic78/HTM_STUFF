@@ -1,4 +1,7 @@
-﻿
+﻿@font-face {
+     font-family: myFirstFont;
+     src: url('arial.ttf');
+}
 body {
     background-color: lightgrey;
 }

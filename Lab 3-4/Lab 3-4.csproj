@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D16C6E9F-17D0-45F7-829A-DA307E080DF6}</ProjectGuid>
+    <ProjectGuid>{E08A6C10-D194-4D47-8C4C-62A7389843A2}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lab3</RootNamespace>
-    <AssemblyName>Lab3</AssemblyName>
+    <RootNamespace>Lab_3_4</RootNamespace>
+    <AssemblyName>Lab 3-4</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -106,13 +106,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\BANNER.jpg" />
     <Content Include="images\banner2.PNG" />
+    <Content Include="images\darth.PNG" />
+    <Content Include="images\Skärmklipptest.JPG" />
+    <Content Include="images\yoda.PNG" />
     <Content Include="index.html" />
+    <Content Include="page2.html" />
+    <Content Include="page3.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="styles\computer.css" />
-    <Content Include="styles\smartphone.css" />
-    <Content Include="styles\StyleSheet1.css" />
+    <Content Include="styles\stilig2.css" />
+    <Content Include="styles\stiligt.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -131,9 +136,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>11398</DevelopmentServerPort>
+          <DevelopmentServerPort>32740</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:11398/</IISUrl>
+          <IISUrl>http://localhost:32740/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -1,0 +1,53 @@
+﻿body {
+}
+nav {
+    width: 420px;
+}
+
+#container {
+    width: 420px;
+    margin: 0px auto;
+    background:#ff6a00;
+}
+
+#left-column {
+    width: 300px;
+    float: left;
+    background: #0094ff;
+    border-radius:25px;
+}
+
+#right-column {
+    width: 120px;
+    float: left;
+    background: #4800ff;
+    border-radius:25px;
+    
+}
+
+@media screen and (max-width:1900px) {
+    #container {
+        width: 100%;
+    }
+
+    #left-column {
+        width: 70%;
+        background: #0094ff;
+    }
+    #right-column {
+    width: 30%;
+    background: #4800ff;
+}
+}
+#header {
+    width:100%;
+}
+#pic1 {
+    width:100%;
+}
+#pic2 {
+    width:100%
+}
+#banner2 {
+    display: none;
+}
