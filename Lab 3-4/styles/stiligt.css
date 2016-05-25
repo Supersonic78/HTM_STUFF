@@ -23,6 +23,7 @@ nav {
     float: left;
     background: #4800ff;
     border-radius: 25px;
+    margin-top:14px;
 }
 
 @media screen and (max-width:1900px) {
@@ -39,6 +40,10 @@ nav {
         width: 30%;
         background: #4800ff;
     }
+    #buttons {
+        width:100%;
+        float: inherit;
+    }
 }
 
 #header {
@@ -48,6 +53,9 @@ nav {
 #pic1 {
     width: 100%;
 }
+    #pic1:hover {
+        background-image: url('../images/yoda.PNG');
+    }
 
 #pic2 {
     width: 100%;
@@ -60,17 +68,33 @@ nav {
 #buttons {
     list-style: none;
     text-align: center;
+     left:1px;
 }
 
     #buttons li a {
-        float: left;
+        float:left;
         display: block;
         background-color: #ff0000;
         border: 1px solid #ff6a00;
-        width: 110px;
-        margin: 5px;
+        width: 60px;
+        margin:5px;
         text-decoration: none;
         border-radius: 20%;
+          
+    }
+      #buttons li a:hover {
+        float:left;
+        display: block;
+        background-color: #808080;
+        border: 1px solid #00ffff;
+        width: 60px;
+        margin:5px;
+        text-decoration: none;
+        border-radius: 20%;
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+          
     }
 
 #postit {
@@ -78,8 +102,6 @@ nav {
     height: 20px;
     background-image: url('../images/postit3.png');
     background-size: 100%;
-    /*-webkit-animation: example 5s infinite;
-    animation: example 5s infinite;*/
 }
 #postit:hover {
     width: 180px;
@@ -103,3 +125,4 @@ nav {
         transform: rotate(20deg);
     }
 }
+
