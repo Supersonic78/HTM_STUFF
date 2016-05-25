@@ -112,6 +112,7 @@
     <Content Include="images\Skärmklipptest.JPG" />
     <Content Include="images\yoda.PNG" />
     <Content Include="index.html" />
+    <Content Include="iphone.html" />
     <Content Include="page1.html" />
     <Content Include="page2.html" />
     <Content Include="page3.html" />
