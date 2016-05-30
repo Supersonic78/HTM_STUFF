@@ -69,6 +69,7 @@ nav {
     list-style: none;
     text-align: center;
      left:1px;
+    display: inline;
 }
 
     #buttons li a {
