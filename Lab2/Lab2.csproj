@@ -107,8 +107,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="order.html" />
     <Content Include="contact.html" />
+    <Content Include="index.html" />
+    <Content Include="latestgames.html" />
+    <Content Include="myarcadecollection.html" />
+    <Content Include="order.html" />
     <Content Include="images\AAEAAQAAAAAAAAi7AAAAJDEyMDQ5ODkwLThhYmYtNDZmMS1hNDYzLTAwZjMzN2UyOGU2Nw.jpg" />
     <Content Include="images\dbex.JPG" />
     <Content Include="images\hodex2.JPG" />
@@ -117,9 +120,6 @@
     <Content Include="images\rtune.PNG" />
     <Content Include="images\rx.JPG" />
     <Content Include="images\xf.JPG" />
-    <Content Include="index.html" />
-    <Content Include="latestgames.html" />
-    <Content Include="myarcadecollection.html" />
     <Content Include="reciept.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />

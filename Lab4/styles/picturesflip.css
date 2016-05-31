@@ -1,14 +1,17 @@
-﻿body {
-    background-color:#ea4df8
+﻿
+body {
+    background-color:#808080;
 }
 .container{ /*3d animeringar körs i en container som vi stylar*/
             /*containern med fast storlek gör att vi inte påverkar
                  omgivningen under själva animeringen*/
-    width:200px;
-    height:200px;
+    width:300px;
+    height:166px;
     font-size:7rem;
     text-align:center;
     position:relative;
+    margin:10px;
+    border:3px solid #ffffff;
 }
 .card{
     width:100%;
@@ -28,16 +31,16 @@
     backface-visibility:hidden;
     perspective:700px;
 }
-.card .front{
-    background-color:honeydew;
-}
+    .card .front {
+        background-image: url('../images/tropical2-2.png');
+    }
 .card .back{
-    background-color:coral;
+   background-color:#808080;
     transform:rotateY(180deg)
 }
 .card:hover{
     transform:rotateY(180deg);
 }
-.tvau .card:hover{
+/*.tvau .card:hover{
     transform:rotateX(180deg)
-}
+}*/
