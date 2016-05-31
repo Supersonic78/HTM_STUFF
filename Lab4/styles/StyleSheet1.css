@@ -1,0 +1,48 @@
+﻿body {
+    background:#808080;
+}
+
+div {
+    background: #808080;
+}
+
+#banner {
+    width: 100%;
+}
+#banner2{
+    width:100%;
+    border:1px solid #0094ff;
+    transition-property:border color;
+    transition-duration:1s;
+}
+#banner2:hover{
+    border-color:#ffffff;
+    
+}
+#test1{
+    width:auto;
+}
+
+#buttons {
+    display: inline;
+    list-style: none;
+}
+
+    #buttons li a {
+        display: block;
+        float:left;
+        margin:5px;
+        color:white;
+        background:#0094ff;
+        width: 110px;
+        text-align:center;
+        border-radius:10px;
+        transition:all 1s;
+        
+    }
+    #buttons li a:hover
+    {
+        background:#ffffff;
+        color:black;
+        transform:rotate(360deg);
+    }
