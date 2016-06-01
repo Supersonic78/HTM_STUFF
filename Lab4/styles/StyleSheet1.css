@@ -1,6 +1,9 @@
 ﻿body {
     background:#808080;
 }
+header{
+    background-color:#808080;
+}
 
 div {
     background: #808080;
@@ -21,19 +24,22 @@ div {
 }
 #test1{
     width:auto;
+    background:#808080;
 }
 
 #buttons {
+    position:relative;
     display: inline;
     list-style: none;
+    width:100%;
 }
 
     #buttons li a {
         display: block;
         float:left;
-        margin:5px;
+        margin:2%;
         color:white;
-        background:#0094ff;
+        background:#478cd2;
         width: 110px;
         text-align:center;
         border-radius:10px;
@@ -46,3 +52,10 @@ div {
         color:black;
         transform:rotate(360deg);
     }
+    .nav navbar-nav li a{
+        background-color:#0094ff;
+    }
+    /*#meny{
+        background:#478cd2;
+        width:100%;
+    }*/
