@@ -27,35 +27,35 @@ div {
     background:#808080;
 }
 
-#buttons {
+/*#buttons {
     position:relative;
     display: inline;
     list-style: none;
     width:100%;
-}
-
-    #buttons li a {
+}*/
+  
+  
+    li a{
         display: block;
         float:left;
         margin:2%;
-        color:white;
-        background:#478cd2;
+        color:#ffffff;      
+        background-color:#056be9;
         width: 110px;
         text-align:center;
         border-radius:10px;
         transition:all 1s;
-        
+        transition-property:background-color;
+       
     }
-    #buttons li a:hover
-    {
-        background:#ffffff;
+    li a:hover{
+        
+        background-color:#ff6a00;
         color:black;
         transform:rotate(360deg);
+
     }
-    .nav navbar-nav li a{
-        background-color:#0094ff;
-    }
-    /*#meny{
-        background:#478cd2;
+    #banner3{
         width:100%;
-    }*/
+    }
+ 

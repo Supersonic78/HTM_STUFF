@@ -95,6 +95,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="canvaslab.html" />
+    <Content Include="images\boat.PNG" />
+    <Content Include="images\boat2.PNG" />
+    <Content Include="images\diver.PNG" />
+    <Content Include="images\tropical3beach.PNG" />
+    <Content Include="images\tropical4beach.PNG" />
+    <Content Include="images\tropical5beach.PNG" />
+    <Content Include="images\tropical6beach.PNG" />
+    <Content Include="images\tropical8beach.PNG" />
+    <Content Include="images\tropicalfish.PNG" />
+    <Content Include="images\tropicalfish2.PNG" />
+    <Content Include="images\tropicalsea1.PNG" />
+    <Content Include="images\turtle.PNG" />
     <Content Include="images\vaadhoo.png" />
     <Content Include="images\vaadhoo2.png" />
     <Content Include="images\vaadhoo3.png" />
@@ -107,6 +119,7 @@
     <Content Include="pages\reception.html" />
     <Content Include="pages\videos.html" />
     <Content Include="scripts\jquery-1.9.1.min.map" />
+    <Content Include="sounds\DBAC Jingles.mp3" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -153,9 +166,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="sounds\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
