@@ -11,7 +11,7 @@
         <div id="test1" class="container-fluid">
 
             <img id="banner" src="../images/vaadhoo.png" />
-            <nav class="navbar navbar-default">
+            <nav class="navbar{min-height:32px !important} navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -26,11 +26,11 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="/pages/pictures.html">Pictures <span class="sr-only">(current)</span></a></li>
-                            <li><a href="pages/videos.html">Videos</a></li>
-                            <li><a href="pages/game.html">Game</a></li>
-                            <li><a href="pages/contact.html">Contact</a></li>
-                            <li><a href="pages/reception.html">Reception</a></li>
-
+                            <li><a href="videos.html">Videos</a></li>
+                            <li><a href="game.html">Game</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="reception.html">Reception</a></li>
+                            <li><a href="reviews.html">Reviews</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -46,20 +46,19 @@
         <h2>Contact</h2>
 
         <label for="text">First name:</label><br />
-        <input class="form-control" id="inputdefault" name="firstname" type="text">
+        <input class="form-control" id="inputdefault" name="firstname" type="text" required>
         <label for="text">Last name:</label><br />
-        <input class="form-control" id="inputdefault" name="lastname" type="text">
+        <input class="form-control" id="inputdefault" name="lastname" type="text" required>
         <label for="text">Phone:</label><br />
-        <input class="form-control" id="inputdefault" name="phone" type="tel">
+        <input class="form-control" id="inputdefault" name="phone" type="tel" required>
         <label for="email">E-mail:</label><br />
-        <input class="form-control" id="inputdefault" name="email" type="email"><br />
+        <input class="form-control" id="inputdefault" name="email" type="email" required><br />
         <select>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
+            <option value="1">😀</option>
+            <option value="2">😊</option>
+            <option value="3">😐</option>
+            <option value="4">😢</option>
         </select>
-
         <input type="submit" id="submit" name="submit" value="Confirm" />
         <div class="form-group">
         </div>

@@ -42,7 +42,8 @@ body {
  li a{
         display: block;
         float:left;    
-        background-color:#808080;
+        background-color:#0b4402;
+        color:white;
         width: 110px;
         margin:5px;
         transform-style:preserve-3d;
@@ -62,4 +63,7 @@ body {
 }
 #banner{
     width: 100%;
+}
+.container-fluid{
+    background:#808080;
 }

@@ -96,7 +96,13 @@
   <ItemGroup>
     <Content Include="images\boat.PNG" />
     <Content Include="images\boat2.PNG" />
+    <Content Include="images\clipart-fish-d877.png" />
     <Content Include="images\diver.PNG" />
+    <Content Include="images\fivestars.png" />
+    <Content Include="images\Huge_item_moreyeel_01.png" />
+    <Content Include="images\lemon%2520shark%2520sm.png" />
+    <Content Include="images\Shark.png" />
+    <Content Include="images\spritediver.png" />
     <Content Include="images\Television-Free-PNG-Image.png" />
     <Content Include="images\Television.png" />
     <Content Include="images\tropical3beach.PNG" />
@@ -118,7 +124,9 @@
     <Content Include="pages\contact.html" />
     <Content Include="pages\game.html" />
     <Content Include="pages\reception.html" />
+    <Content Include="pages\reviews.html" />
     <Content Include="pages\videos.html" />
+    <Content Include="scripts\drawcanvas.js" />
     <Content Include="scripts\jquery-1.9.1.min.map" />
     <Content Include="sounds\DBAC Jingles.mp3" />
     <None Include="Web.Debug.config">
@@ -159,6 +167,7 @@
     <Content Include="scripts\jquery-1.9.1.js" />
     <Content Include="scripts\jquery-1.9.1.min.js" />
     <Content Include="sounds\Sunny Day-SoundBible.com-2064222612.mp3" />
+    <Content Include="styles\aquarium.css" />
     <Content Include="styles\cardflip.css" />
     <Content Include="styles\cardflip2.css" />
     <Content Include="styles\picturesflip.css" />
