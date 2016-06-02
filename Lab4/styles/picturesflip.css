@@ -29,7 +29,7 @@ body {
     perspective:700px;
 }
     .card .front {
-        background-image: url('../images/tropical2-2.png');
+    
     }
 .card .back{
    background-color:#808080;
@@ -39,12 +39,27 @@ body {
     transform:rotateY(180deg);
 
 }
-#row1{
-   
-}
-#row2 {
-    
-}
+ li a{
+        display: block;
+        float:left;    
+        background-color:#808080;
+        width: 110px;
+        margin:5px;
+        transform-style:preserve-3d;
+        text-align:center;
+        border-radius:10px;
+        transition:all 1s;
+        transition-property:background color;
+       
+    }
+    li a:hover {
+        background-color: #ff6a00;
+        color: black;
+        transform: rotateY(360deg);
+    }
 #banner3{
     width:100%;
+}
+#banner{
+    width: 100%;
 }

@@ -45,7 +45,7 @@ div {
         text-align:center;
         border-radius:10px;
         transition:all 1s;
-        transition-property:background-color;
+        transition-property:background color;
        
     }
     li a:hover{
