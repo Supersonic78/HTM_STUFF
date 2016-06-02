@@ -98,6 +98,8 @@
     <Content Include="images\boat.PNG" />
     <Content Include="images\boat2.PNG" />
     <Content Include="images\diver.PNG" />
+    <Content Include="images\Television-Free-PNG-Image.png" />
+    <Content Include="images\Television.png" />
     <Content Include="images\tropical3beach.PNG" />
     <Content Include="images\tropical4beach.PNG" />
     <Content Include="images\tropical5beach.PNG" />
@@ -161,6 +163,7 @@
     <Content Include="styles\cardflip2.css" />
     <Content Include="styles\picturesflip.css" />
     <Content Include="styles\StyleSheet1.css" />
+    <Content Include="videos\Bubbles_Animation.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

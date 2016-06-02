@@ -58,4 +58,64 @@ div {
     #banner3{
         width:100%;
     }
+    #contbox1{
+        position:relative;
+        display:block;
+        width:100%;
+    }
+    #content1{
+        position:absolute;
+        display:block;
+    }
+    .row{
+        display:table-row;
+       position:relative;
+        margin:2px;
+        width:100%;
+    }
+    #test2{
+        display:inline;
+        width:100%;
+        margin-top:10px;
+    }
+    #formbox{
+        width:97%;
+        right:100px;
+        position:relative;
+        left:12px;
+        background-color:rgba(5, 93, 8, 0.52);
+        border-radius:10px;
+    }
+    #form1{
+        margin:5px;
+        position:relative;
+        left:10px;
+    }
+    label{
+        position:absolute;
+        width:100%;
+    }
+    input{
+        position:relative;
+    }
+#tvframe {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    
+}
+#videon{
+    width:270px;
+    height:180px;
+    position:absolute;
+    left:10%;
+    top:10%;
+    margin-left:15px;
+    margin-top:18px;
+}
+#videoplayer{
+    position:relative;
+}
  
